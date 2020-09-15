@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{FBC48FAD-C702-FFFA-4433-A29C87329C6C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/QuitOnClick.cs">
+    <Files>
+      <File FileName="Assets/Prototype/Momo/asset/Title/StartGame.cs" Line="5" Column="23" />
+      <File FileName="Assets/Prototype/Momo/asset/Title/Exitonclick.cs" Line="8" Column="6" />
+      <File FileName="Assets/QuitOnClick.cs" Line="16" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Adventure Creator Test" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Prototype" expanded="True">
+                <Node name="Momo" expanded="True">
+                  <Node name="asset" expanded="True">
+                    <Node name="Title" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="QuitOnClick.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b9856ca8-9ba1-419f-96b6-5d7703012b08" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
