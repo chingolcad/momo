@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 9073
+  controlID: 116
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -62,10 +62,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -512
-    m_HBaseRangeMax: 512
-    m_VBaseRangeMin: -384
-    m_VBaseRangeMax: 384
+    m_HBaseRangeMin: -256
+    m_HBaseRangeMax: 256
+    m_VBaseRangeMin: -192
+    m_VBaseRangeMax: 192
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -85,7 +85,7 @@ MonoBehaviour:
       y: 17
       width: 900
       height: 452
-    m_Scale: {x: 0.5885417, y: 0.5885417}
+    m_Scale: {x: 1, y: 1}
     m_Translation: {x: 450, y: 226}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -93,15 +93,15 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -764.60175
-      y: -384
-      width: 1529.2035
-      height: 768
+      x: -450
+      y: -226
+      width: 900
+      height: 452
     m_MinimalGUI: 1
-  m_defaultScale: 0.5885417
+  m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 900, y: 469}
+  m_LastWindowPixelSize: {x: 1800, y: 938}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 9074
+  controlID: 98
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,8 +179,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73
+    x: 212
+    y: 162
     width: 900
     height: 434
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -427,8 +427,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 527
+    x: 212
+    y: 616
     width: 900
     height: 473
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 9015
+  controlID: 117
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -508,8 +508,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 902
-    y: 73
+    x: 1114
+    y: 162
     width: 462
     height: 409
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -518,7 +518,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffff021b0000
+      m_ExpandedIDs: bcfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -707,8 +707,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 902
-    y: 502
+    x: 1114
+    y: 591
     width: 462
     height: 498
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -724,20 +724,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prototype/Animations
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Prototype/Animations
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\suner\OneDrive\Documents\GitHub\momo\Momo
+  m_LastProjectPath: /Users/chingo/Documents/GitHub/momo/Momo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c140000
-    m_LastClickedID: 5180
-    m_ExpandedIDs: 00000000380e0000e8100000b4110000a2130000041800000e4500001045000000ca9a3b
+    m_SelectedIDs: c41d0000
+    m_LastClickedID: 7620
+    m_ExpandedIDs: 00000000d41b00005a1e00001c1f0000ee2000001c250000285000002a50000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -765,7 +765,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000380e0000e8100000b4110000a2130000041800000e4500001045000000ca9a3b
+    m_ExpandedIDs: 00000000d41b00005a1e00001c1f0000ee2000001c250000285000002a500000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -790,8 +790,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 021b0000
-    m_LastClickedInstanceID: 6914
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: eea3fdffde300000f4090000783200000436000054310000220b00005ca60200e2090100e4090100668400003813000058690000225d0000a41b000000000000
     m_RenameOverlay:
@@ -869,8 +869,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1368
-    y: 73
+    x: 1580
+    y: 162
     width: 550
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}
