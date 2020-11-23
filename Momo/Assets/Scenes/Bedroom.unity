@@ -5321,7 +5321,7 @@ Animator:
   m_GameObject: {fileID: 2029396281}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a43892b6a9c36c74292ca3d6c6462df2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5947,10 +5947,10 @@ MonoBehaviour:
   turn2DCharactersIn3DSpace: 1
   spriteChild: {fileID: 2029396283}
   rotateSprite3D: 0
-  idleAnimSprite: idle
-  walkAnimSprite: walk
-  runAnimSprite: run
-  talkAnimSprite: talk
+  idleAnimSprite: MomoIdle
+  walkAnimSprite: MomoWalk
+  runAnimSprite: 
+  talkAnimSprite: 
   lockScale: 0
   spriteScale: 1
   lockDirection: 0
@@ -5970,7 +5970,7 @@ MonoBehaviour:
     downLeft: 1
     upLeft: 1
     upRight: 1
-    downRight: 0
+    downRight: 1
     spriteDirections:
     - suffix: DL
       angle: 45
@@ -5986,7 +5986,10 @@ MonoBehaviour:
       maxAngle: 247.5
     - suffix: R
       angle: 270
-      maxAngle: 337.5
+      maxAngle: 292.5
+    - suffix: DR
+      angle: 315
+      maxAngle: 360
     isUpgraded: 1
   angleSnapping: 0
   walkSpeedScale: 2
@@ -6728,10 +6731,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7651297621667268391, guid: cef7afbf98f974744b3bb75f33b421ba,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1873132475621097203, guid: cef7afbf98f974744b3bb75f33b421ba,
         type: 3}
       propertyPath: m_Name
       value: Momo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1873132475621097203, guid: cef7afbf98f974744b3bb75f33b421ba,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cef7afbf98f974744b3bb75f33b421ba, type: 3}
