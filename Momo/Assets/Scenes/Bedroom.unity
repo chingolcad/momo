@@ -38,11 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-<<<<<<< Updated upstream
+
   m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074, b: 0.35872698, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
->>>>>>> Stashed changes
+
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1255,6 +1255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTexture: {fileID: 2800000, guid: 2de7d16b4ac4b402182d4f2ca40e0b2d, type: 3}
   renderFading: 1
+  restoreTransformOnLoadVR: 0
   forwardDirection: 0
 --- !u!1 &558944030
 GameObject:
@@ -7332,9 +7333,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.32337403}
+  m_Offset: {x: -0.026835084, y: -0.48438454}
   serializedVersion: 2
-  m_Radius: 0.40987945
+  m_Radius: 0.43671453
 --- !u!1 &6727414619684690684
 GameObject:
   m_ObjectHideFlags: 0
@@ -7967,15 +7968,21 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.35792783, y: -0.09379253}
-      - {x: 0.2859307, y: 0.53215873}
-      - {x: 0.8708298, y: 0.016192138}
+    - - {x: -0.36176255, y: -0.014036222}
+      - {x: -0.066536084, y: 0.21663025}
+      - {x: 0.021230377, y: 0.3153374}
+      - {x: 0.1974168, y: 0.46669346}
+      - {x: 0.28966, y: 0.54826254}
+      - {x: 0.89764076, y: 0.09585328}
       - {x: 0.6023899, y: -0.23242505}
       - {x: 0.72949785, y: -0.4138878}
       - {x: 0.38841033, y: -0.8393207}
       - {x: 0.21691707, y: -0.595628}
-      - {x: -0.58248895, y: -1.3181764}
-      - {x: -1.0371704, y: -0.73060036}
+      - {x: -0.49045572, y: -1.3022254}
+      - {x: -0.59399307, y: -1.437811}
+      - {x: -0.8193786, y: -1.0561064}
+      - {x: -0.6754603, y: -0.7816607}
+      - {x: -0.68484765, y: -0.3720773}
 --- !u!114 &8612289827615234664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8005,14 +8012,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disableRenderer: 1
   ignoreCollisions: 1
-  polygonColliderHoles:
-  - {fileID: 1586129421}
-  - {fileID: 183532439}
-  - {fileID: 558944032}
+  polygonColliderHoles: []
   characterEvasion: 1
   characterEvasionPoints: 0
   characterEvasionYScale: 1
-  accuracy: 0.808
+  accuracy: 0.866
   gizmoColour: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &8954441895465074586
 Transform:
