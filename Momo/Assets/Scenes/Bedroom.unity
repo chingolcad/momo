@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -165,9 +165,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 1
-  skipActionActual: {fileID: 706610830}
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 291833187}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -178,7 +178,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1127387318891956930}
@@ -223,7 +223,7 @@ Transform:
   m_Children:
   - {fileID: 492541912}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &183532437
 GameObject:
@@ -566,6 +566,84 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &288781938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f732c6ec2146fb936dc802259115e, type: 3}
+  m_Name: ActionInventoryHide
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Hide Inventory
+  description: Hide Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 119.14996
+    y: 833.87933
+    width: 300
+    height: 42
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 2676527394605211248}
+  invAction: 0
+--- !u!114 &291833187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 706610830}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 453
+    y: 78
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1127387318891956930}
+  invAction: 0
 --- !u!114 &378091934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,7 +732,7 @@ Transform:
   m_Children:
   - {fileID: 3629274015799084324}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &390559859
 MonoBehaviour:
@@ -696,6 +774,45 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 5848404519428785634}
   parameterID: -1
   timeToPause: 0
+--- !u!114 &400062003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1646659737}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 54
+    y: 379.3484
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 2676527394605211248}
+  invAction: 0
 --- !u!114 &414256946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -994,6 +1111,114 @@ MonoBehaviour:
   headTurnSpeed: 4
   moveOutOfPlayersWay: 0
   minPlayerDistance: 1
+--- !u!114 &506665412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f732c6ec2146fb936dc802259115e, type: 3}
+  m_Name: ActionInventoryHide
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Hide Inventory
+  description: Hide Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 171
+    y: 1076.7893
+    width: 300
+    height: 42
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1127387318891956930}
+  invAction: 0
+--- !u!1001 &524645496
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5862824544154286088, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_Name
+      value: Momo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 210e1d85a0537432eabecb596fb0b207, type: 3}
 --- !u!114 &533508665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1017,9 +1242,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 0
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 400062003}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1027,10 +1252,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 23
-    y: 390
+    x: 56
+    y: 220
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2676527394605211248}
@@ -1303,58 +1528,6 @@ Transform:
   m_Father: {fileID: 2069745242}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &587338841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
-  m_Name: ActionInventorySet
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 9
-  title: Add or remove
-  description: Adds or removes an item from the Player's inventory. Items are defined
-    in the Inventory Manager. If the player can carry multiple amounts of the item,
-    more options will show.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: 0
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 30
-    y: 327
-    width: 300
-    height: 140
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  invAction: 0
-  parameterID: -1
-  invID: 1
-  replaceParameterID: -1
-  invIDReplace: 0
-  setAmount: 0
-  amountParameterID: -1
-  amount: 1
-  setPlayer: 0
-  playerID: 0
-  addToFront: 0
-  removeLast: 0
 --- !u!114 &593082301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1727,7 +1900,7 @@ Transform:
   - {fileID: 1310813915}
   - {fileID: 188514466}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &809273690
 MonoBehaviour:
@@ -1853,7 +2026,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 4
-  skipActionActual: {fileID: 1801485565}
+  skipActionActual: {fileID: 1306536505}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1985,8 +2158,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: 2
-  skipActionActual: {fileID: 907057536}
+  skipAction: 4
+  skipActionActual: {fileID: 1306536505}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2153,9 +2326,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 6
+  skipActionActual: {fileID: 288781938}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2166,7 +2339,7 @@ MonoBehaviour:
     x: 26
     y: 612.81274
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2676527394605211248}
@@ -2261,7 +2434,7 @@ MonoBehaviour:
   markerID: 0
   marker: {fileID: 6592502069865173836}
   isPlayer: 0
-  charToMove: {fileID: 3354330004605575976}
+  charToMove: {fileID: 0}
   speed: 0
   pathFind: 1
   doFloat: 0
@@ -2814,7 +2987,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1362735114
 GameObject:
@@ -2846,7 +3019,7 @@ Transform:
   - {fileID: 1656056366}
   - {fileID: 534669905}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1377505139
 MonoBehaviour:
@@ -2928,8 +3101,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 344.14996
-    y: 380
+    x: 530.14996
+    y: 146
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2976,7 +3149,7 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
+  endAction: 2
   skipAction: 1
   skipActionActual: {fileID: 1755517300}
   linkedCutscene: {fileID: 0}
@@ -2989,7 +3162,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 104
+    height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8062710385807315292}
@@ -3067,9 +3240,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 4
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 6
+  skipActionActual: {fileID: 506665412}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3080,7 +3253,7 @@ MonoBehaviour:
     x: 43
     y: 861.74023
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1127387318891956930}
@@ -3307,13 +3480,13 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 2676527394605211248}
   endings:
   - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: 1646659737}
+    skipAction: 2
+    skipActionActual: {fileID: 533508665}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 1
-    skipAction: 1
-    skipActionActual: {fileID: 1646659737}
+    skipAction: 2
+    skipActionActual: {fileID: 533508665}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
@@ -3745,9 +3918,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 2
-  skipActionActual: {fileID: 587338841}
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 994351184}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3755,10 +3928,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 20
-    y: 221
+    x: 45
+    y: 449
     width: 300
-    height: 158
+    height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2676527394605211248}
@@ -3894,7 +4067,7 @@ Transform:
   m_Children:
   - {fileID: 1541800964}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1725049853
 MonoBehaviour:
@@ -3982,8 +4155,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 24
-    y: 178
+    x: 20
+    y: 224
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4048,65 +4221,6 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1478305628875629597}
   parameterID: -1
   timeToPause: 0
---- !u!114 &1801485565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
-  m_Name: ActionInstantiate
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 12
-  title: Add or remove
-  description: Instantiates or deletes GameObjects within the current scene. To ensure
-    this works with save games correctly, place any prefabs to be added in a Resources
-    asset folder.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 907057536}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 379
-    y: 594
-    width: 300
-    height: 122
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  gameObject: {fileID: 3629274015799253252}
-  parameterID: -1
-  constantID: 0
-  replaceGameObject: {fileID: 0}
-  replaceParameterID: -1
-  replaceConstantID: 0
-  relativeGameObject: {fileID: 0}
-  relativeGameObjectID: 0
-  relativeGameObjectParameterID: -1
-  relativeVectorParameterID: -1
-  relativeVector: {x: 0, y: 0, z: 0}
-  vectorVarParameterID: -1
-  vectorVarID: 0
-  variableLocation: 0
-  invAction: 1
-  positionRelativeTo: 0
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  spawnedObjectParameterID: -1
 --- !u!114 &1860540891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4299,7 +4413,7 @@ Transform:
   - {fileID: 8062710385797380252}
   - {fileID: 7157421192505098038}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1937897753
 GameObject:
@@ -4329,7 +4443,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1944208452
 GameObject:
@@ -4459,7 +4573,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2009299659
 MonoBehaviour:
@@ -4538,7 +4652,7 @@ Transform:
   - {fileID: 339794858217984472}
   - {fileID: 1478305628869643741}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2069745241
 GameObject:
@@ -4576,7 +4690,7 @@ Transform:
   - {fileID: 208937906}
   - {fileID: 1540360296}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2070876213
 GameObject:
@@ -4611,7 +4725,7 @@ Transform:
   - {fileID: 926180523}
   - {fileID: 29420151}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2090861056
 GameObject:
@@ -4990,6 +5104,8 @@ MonoBehaviour:
   - {fileID: 593082301}
   - {fileID: 824980082}
   - {fileID: 1446338754}
+  - {fileID: 291833187}
+  - {fileID: 506665412}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -5247,90 +5363,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1001 &2017373895897386940
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5090111198721955136, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_Name
-      value: Momo
-      objectReference: {fileID: 0}
-    - target: {fileID: 5090111198721955136, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.34
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 244104358091746888, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2017373896026520260, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 035feca31ca414e6bb97e8805cb2d637, type: 2}
-    - target: {fileID: 864862059607660563, guid: f23355e3a44fd4813a2d758b57cb9231,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f23355e3a44fd4813a2d758b57cb9231, type: 3}
 --- !u!114 &2542704873812588753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5406,6 +5438,8 @@ MonoBehaviour:
   - {fileID: 533508665}
   - {fileID: 994351184}
   - {fileID: 1407115654}
+  - {fileID: 400062003}
+  - {fileID: 288781938}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -5628,18 +5662,6 @@ MonoBehaviour:
   constantID: 31294
   retainInPrefab: 0
   autoManual: 0
---- !u!114 &3354330004605575976 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3851667861473799316, guid: f23355e3a44fd4813a2d758b57cb9231,
-    type: 3}
-  m_PrefabInstance: {fileID: 2017373895897386940}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e75a04a147624aa9b6f89d5d4759155, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &3629274015799084324
 Transform:
   m_ObjectHideFlags: 0
@@ -7042,7 +7064,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8062710385797080252
 GameObject:
