@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+<<<<<<< Updated upstream
   m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074, b: 0.35872698, a: 1}
+=======
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
+>>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -112,6 +116,45 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &1554201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f732c6ec2146fb936dc802259115e, type: 3}
+  m_Name: ActionInventoryHide
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 3
+  skipActionActual: {fileID: 994351184}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 393
+    y: 757.8021
+    width: 300
+    height: 42
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 2676527394605211248}
+  invAction: 0
 --- !u!1 &29420150
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,9 +208,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 1
-  skipActionActual: {fileID: 706610830}
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 807846553}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -178,7 +221,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1127387318891956930}
@@ -1017,9 +1060,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 0
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 2053023044}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1027,10 +1070,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 23
-    y: 390
+    x: 15
+    y: 220
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2676527394605211248}
@@ -1371,58 +1414,6 @@ Transform:
   m_Father: {fileID: 2069745242}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &587338841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
-  m_Name: ActionInventorySet
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 9
-  title: Add or remove
-  description: Adds or removes an item from the Player's inventory. Items are defined
-    in the Inventory Manager. If the player can carry multiple amounts of the item,
-    more options will show.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 0
-  skipAction: 0
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 30
-    y: 327
-    width: 300
-    height: 140
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  invAction: 0
-  parameterID: -1
-  invID: 1
-  replaceParameterID: -1
-  invIDReplace: 0
-  setAmount: 0
-  amountParameterID: -1
-  amount: 1
-  setPlayer: 0
-  playerID: 0
-  addToFront: 0
-  removeLast: 0
 --- !u!114 &593082301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1613,6 +1604,45 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &637425033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 1
+  skipActionActual: {fileID: 1508409623}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 451
+    y: 249.80005
+    width: 300
+    height: 42
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7021026714637460412}
+  invAction: 0
 --- !u!1 &698601467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,8 +1705,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 54
-    y: 192
+    x: 53
+    y: 222
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1797,6 +1827,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &807846553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 706610830}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 327
+    y: 111
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1127387318891956930}
+  invAction: 0
 --- !u!114 &809273690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1921,7 +1990,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 4
-  skipActionActual: {fileID: 1801485565}
+  skipActionActual: {fileID: 1306536505}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1929,8 +1998,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 30
-    y: 488
+    x: 45
+    y: 301
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1970,7 +2039,7 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 1
-  endAction: 0
+  endAction: 2
   skipAction: 1
   skipActionActual: {fileID: 1508409623}
   linkedCutscene: {fileID: 0}
@@ -1983,7 +2052,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 212
+    height: 230
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7021026714637460412}
@@ -2052,9 +2121,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
-  skipAction: 2
-  skipActionActual: {fileID: 907057536}
+  endAction: 2
+  skipAction: 6
+  skipActionActual: {fileID: 1069194940}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2065,7 +2134,7 @@ MonoBehaviour:
     x: 56
     y: 758.94995
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8062710385807315292}
@@ -2221,9 +2290,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 6
+  skipActionActual: {fileID: 1554201}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2234,7 +2303,7 @@ MonoBehaviour:
     x: 26
     y: 612.81274
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2676527394605211248}
@@ -2274,10 +2343,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 86
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 286236565316114857}
@@ -2316,10 +2385,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 111
+    y: 239
     width: 300
-    height: 60
+    height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 286236565316114857}
@@ -2338,6 +2407,45 @@ MonoBehaviour:
   maxTime: 10
   onReachTimeLimit: 0
   faceAfter: 0
+--- !u!114 &1069194940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f732c6ec2146fb936dc802259115e, type: 3}
+  m_Name: ActionInventoryHide
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Hide Inventory
+  description: Hide Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 2
+  skipActionActual: {fileID: 907057536}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 132.1997
+    y: 939.80225
+    width: 300
+    height: 42
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8062710385807315292}
+  invAction: 0
 --- !u!114 &1111290668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2532,10 +2640,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 421
+    y: 63
     width: 300
-    height: 60
+    height: 171
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 286236565316114857}
@@ -2676,6 +2784,45 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1254348113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f732c6ec2146fb936dc802259115e, type: 3}
+  m_Name: ActionInventoryHide
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Hide Inventory
+  description: Hide Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 1
+  skipActionActual: {fileID: 706610830}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 512
+    y: 187
+    width: 300
+    height: 42
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 1127387318891956930}
+  invAction: 0
 --- !u!114 &1306536505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2700,8 +2847,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 907057536}
+  skipAction: 5
+  skipActionActual: {fileID: 1665221121}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2709,8 +2856,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 379
-    y: 594
+    x: 32
+    y: 443
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2987,8 +3134,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 4
+  skipActionActual: {fileID: 1407115654}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2996,8 +3143,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 344.14996
-    y: 380
+    x: 497.14996
+    y: 184
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3044,9 +3191,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 1
-  skipActionActual: {fileID: 1755517300}
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 830972617}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3057,7 +3204,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 104
+    height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 8062710385807315292}
@@ -3135,9 +3282,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
+  endAction: 2
   skipAction: 4
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 1254348113}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3375,8 +3522,8 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 2676527394605211248}
   endings:
   - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: 1646659737}
+    skipAction: 2
+    skipActionActual: {fileID: 533508665}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 1
@@ -3425,8 +3572,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 20
-    y: 249
+    x: 27
+    y: 308
     width: 300
     height: 233
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3813,9 +3960,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 2
-  skipActionActual: {fileID: 587338841}
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 994351184}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3823,10 +3970,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 20
-    y: 221
+    x: 382
+    y: 452
     width: 300
-    height: 158
+    height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2676527394605211248}
@@ -3879,6 +4026,45 @@ Transform:
   m_Father: {fileID: 1362735115}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1665221121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1755517300}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 327.6001
+    y: 564.203
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8062710385807315292}
+  invAction: 0
 --- !u!114 &1673023358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4041,8 +4227,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 3
-  skipActionActual: {fileID: 830972617}
+  skipAction: 2
+  skipActionActual: {fileID: 907057536}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4050,8 +4236,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 24
-    y: 178
+    x: 417
+    y: 633
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4116,65 +4302,6 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1478305628875629597}
   parameterID: -1
   timeToPause: 0
---- !u!114 &1801485565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
-  m_Name: ActionInstantiate
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 12
-  title: Add or remove
-  description: Instantiates or deletes GameObjects within the current scene. To ensure
-    this works with save games correctly, place any prefabs to be added in a Resources
-    asset folder.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 907057536}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 379
-    y: 594
-    width: 300
-    height: 122
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  gameObject: {fileID: 3629274015799253252}
-  parameterID: -1
-  constantID: 0
-  replaceGameObject: {fileID: 0}
-  replaceParameterID: -1
-  replaceConstantID: 0
-  relativeGameObject: {fileID: 0}
-  relativeGameObjectID: 0
-  relativeGameObjectParameterID: -1
-  relativeVectorParameterID: -1
-  relativeVector: {x: 0, y: 0, z: 0}
-  vectorVarParameterID: -1
-  vectorVarID: 0
-  variableLocation: 0
-  invAction: 1
-  positionRelativeTo: 0
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  spawnedObjectParameterID: -1
 --- !u!114 &1860540891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4207,17 +4334,17 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 30
-    y: 851.5105
+    x: 225
+    y: 799.5105
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7021026714637460412}
   endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 1
+    skipAction: 4
+    skipActionActual: {fileID: 637425033}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   parameterID: -1
@@ -4657,6 +4784,45 @@ Transform:
   m_Father: {fileID: 1773324516075954676}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053023044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1646659737}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 132
+    y: 376.802
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 2676527394605211248}
+  invAction: 0
 --- !u!1 &2057398504
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,6 +5308,8 @@ MonoBehaviour:
   - {fileID: 593082301}
   - {fileID: 824980082}
   - {fileID: 1446338754}
+  - {fileID: 807846553}
+  - {fileID: 1254348113}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -5627,6 +5795,8 @@ MonoBehaviour:
   - {fileID: 533508665}
   - {fileID: 994351184}
   - {fileID: 1407115654}
+  - {fileID: 2053023044}
+  - {fileID: 1554201}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -7666,6 +7836,8 @@ MonoBehaviour:
   - {fileID: 907057536}
   - {fileID: 830972617}
   - {fileID: 1306536505}
+  - {fileID: 1665221121}
+  - {fileID: 1069194940}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
