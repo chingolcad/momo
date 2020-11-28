@@ -17,6 +17,7 @@ MonoBehaviour:
   allowMainCursor: 1
   lockSystemCursor: 1
   keepCursorWithinScreen: 1
+  confineSystemCursor: 0
   allowWalkCursor: 0
   addWalkPrefix: 0
   walkPrefix:
