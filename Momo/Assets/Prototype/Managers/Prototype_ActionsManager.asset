@@ -850,3 +850,17 @@ MonoBehaviour:
       the Variables Manager.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionInventoryHide
+    category: 20
+    title: Hide Inventory
+    description: Hide Inventory when adding or removing an item from the Player's
+      inventory.
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionInventoryShow
+    category: 20
+    title: Show Inventory
+    description: Show Inventory when adding or removing an item from the Player's
+      inventory.
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
