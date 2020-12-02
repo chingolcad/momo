@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -314,8 +314,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 21
+  skipActionActual: {fileID: 1275909686}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -323,8 +323,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 640
-    y: 3165.9204
+    x: 14
+    y: 3615
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -368,8 +368,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 369
-    y: 2376.3943
+    x: 14
+    y: 2765
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1069,8 +1069,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 33
-    y: 533
+    x: 14
+    y: 802
     width: 300
     height: 215
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1204,8 +1204,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 591
-    y: 2761.5107
+    x: 14
+    y: 3311
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1583,6 +1583,46 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &546701213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: Wait
+  m_EditorClassIdentifier: 
+  id: 1
+  category: 6
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 8
+  skipActionActual: {fileID: 1244846594}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 152
+    y: 885.1387
+    width: 300
+    height: 104
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8411562718528584252}
+  parameterID: -1
+  timeToPause: 2
 --- !u!114 &595340677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1614,8 +1654,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 438
-    y: 77
+    x: 14
+    y: 238
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1659,10 +1699,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 32
-    y: 780
+    x: 14
+    y: 1047
     width: 300
-    height: 158
+    height: 171
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3996977702369925204}
@@ -1840,8 +1880,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 48
-    y: 3386.9316
+    x: 14
+    y: 3937
     width: 300
     height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1886,8 +1926,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 443
-    y: 1215.0842
+    x: 14
+    y: 1467
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2196,6 +2236,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 7760066756521970116}
   - {fileID: 3996977702358839700}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -2272,8 +2313,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 102
-    y: 2681.9316
+    x: 14
+    y: 3087
     width: 300
     height: 194
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2648,8 +2689,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 448
-    y: 263
+    x: 14
+    y: 426
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2867,8 +2908,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 416
-    y: 421
+    x: 14
+    y: 596
     width: 300
     height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2921,6 +2962,52 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   invAction: 0
+--- !u!114 &1039212038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc97f6c6b883c492b87b252ed835136e, type: 3}
+  m_Name: ActionCharFaceDirection
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Face direction
+  description: "Makes a Character turn, either instantly or over time, to face a direction
+    relative to the camera \u2013 i.e. up, down, left or right."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7760066756514979844}
+  charToMoveParameterID: -1
+  charToMoveID: 0
+  isInstant: 1
+  direction: 6
+  charToMove: {fileID: 0}
+  isPlayer: 1
+  relativeTo: 0
 --- !u!114 &1048402427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3475,8 +3562,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 191
-    y: 1361.2036
+    x: 14
+    y: 1655
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3602,8 +3689,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 648
-    y: 3321.5205
+    x: 14
+    y: 3767
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4050,8 +4137,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 192
-    y: 1029.877
+    x: 14
+    y: 1248
     width: 300
     height: 189
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4513,8 +4600,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 433
-    y: 1859.7786
+    x: 14
+    y: 2237
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4555,8 +4642,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 84
-    y: 1519.103
+    x: 14
+    y: 1843
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4703,6 +4790,45 @@ MonoBehaviour:
   copyRotation: 0
   variables: {fileID: 0}
   variablesConstantID: 0
+--- !u!114 &1645127863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 1073756889}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 42
+    y: 708.10815
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8411562718528584252}
+  invAction: 0
 --- !u!114 &1656394030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4776,8 +4902,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 81
-    y: 1695.7266
+    x: 14
+    y: 2031
     width: 300
     height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4865,8 +4991,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 635
-    y: 2942.9204
+    x: 14
+    y: 3481
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5564,8 +5690,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 17
+  skipActionActual: {fileID: 691950751}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -5573,8 +5699,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 57
-    y: 3674.2393
+    x: 14
+    y: 4143
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5671,8 +5797,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 532
-    y: 2573.6943
+    x: 14
+    y: 2917
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6044,8 +6170,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 2000.9053
+    x: 14
+    y: 2371
     width: 300
     height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6095,7 +6221,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 0
   skipAction: 9
-  skipActionActual: {fileID: 0}
+  skipActionActual: {fileID: 394520931}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -6103,8 +6229,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 58
-    y: 2258.055
+    x: 14
+    y: 2577
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6250,6 +6376,45 @@ Transform:
   m_Father: {fileID: 903560016}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2125699428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
+  m_Name: ActionInventoryShow
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Show Inventory
+  description: Show Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 2142632212}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 490
+    y: 947.4287
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8411562718528584252}
+  invAction: 0
 --- !u!114 &2142632212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7089,7 +7254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionListSource: 0
-  cutsceneOnStart: {fileID: 0}
+  cutsceneOnStart: {fileID: 7760066756514979844}
   cutsceneOnLoad: {fileID: 0}
   cutsceneOnVarChange: {fileID: 0}
   actionListAssetOnStart: {fileID: 0}
@@ -7953,7 +8118,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 810690204}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3996977702359199156
 GameObject:
@@ -9132,6 +9297,63 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7760066756514979844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760066756521547236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3adbc08fa3d5641d4bf0544d11b7fb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1039212038}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+--- !u!1 &7760066756521547236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7760066756521970116}
+  - component: {fileID: 7760066756514979844}
+  m_Layer: 2
+  m_Name: OnStart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7760066756521970116
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7760066756521547236}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 810690204}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &8349093284248752965
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9355,9 +9577,9 @@ MonoBehaviour:
   - {fileID: 1372769361}
   - {fileID: 1073756889}
   - {fileID: 60195538}
-  - {fileID: 1018289451}
-  - {fileID: 1244846594}
-  - {fileID: 411762689}
+  - {fileID: 1645127863}
+  - {fileID: 2125699428}
+  - {fileID: 546701213}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.3587269, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -392,7 +392,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 1
   skipAction: 12
-  skipActionActual: {fileID: 1574004088}
+  skipActionActual: {fileID: 1111290668}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -400,8 +400,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 43
-    y: 1863.0469
+    x: 14
+    y: 2356
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -677,8 +677,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 454
-    y: 1425.0469
+    x: 14
+    y: 2034
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1469,10 +1469,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 207
-    y: 304
+    x: 14
+    y: 612
     width: 300
-    height: 176
+    height: 189
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3629274015810022628}
@@ -2288,8 +2288,8 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 3629274015810022628}
   endings:
   - resultAction: 2
-    skipAction: 11
-    skipActionActual: {fileID: 1377505139}
+    skipAction: 13
+    skipActionActual: {fileID: 1648732732}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 1
@@ -2474,8 +2474,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 23
-    y: 205
+    x: 364
+    y: 218
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2578,8 +2578,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 726
-    y: 569.96826
+    x: 14
+    y: 831
     width: 300
     height: 189
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2696,8 +2696,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 440
-    y: 598
+    x: 14
+    y: 1184
     width: 300
     height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2950,8 +2950,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 6
-    y: 502
+    x: 14
+    y: 1050
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3053,8 +3053,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 536
-    y: 134
+    x: 14
+    y: 406
     width: 300
     height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3206,8 +3206,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 26
-    y: 1696.0469
+    x: 14
+    y: 2222
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3730,49 +3730,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1574004088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c18fce424d36473bae0d57ce49b68cb, type: 3}
-  m_Name: ActionStopActionList
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 0
-  title: Kill
-  description: Instantly stops a scene or asset-based ActionList from running.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 1
-  skipAction: 12
-  skipActionActual: {fileID: 1574004088}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 23
-    y: 205
-    width: 300
-    height: 104
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  listSource: 0
-  actionList: {fileID: 3629274015810022628}
-  invActionList: {fileID: 0}
-  constantID: 0
-  parameterID: -1
 --- !u!1 &1586129419
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,8 +3826,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 445
-    y: 1184
+    x: 14
+    y: 1815
     width: 300
     height: 189
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3954,6 +3911,52 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1648732732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc97f6c6b883c492b87b252ed835136e, type: 3}
+  m_Name: ActionCharFaceDirection
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Face direction
+  description: "Makes a Character turn, either instantly or over time, to face a direction
+    relative to the camera \u2013 i.e. up, down, left or right."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 11
+  skipActionActual: {fileID: 1377505139}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 218
+    width: 300
+    height: 158
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3629274015810022628}
+  charToMoveParameterID: -1
+  charToMoveID: 0
+  isInstant: 1
+  direction: 7
+  charToMove: {fileID: 0}
+  isPlayer: 1
+  relativeTo: 0
 --- !u!1 &1656056365
 GameObject:
   m_ObjectHideFlags: 0
@@ -4101,8 +4104,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 34
-    y: 941.00073
+    x: 14
+    y: 1555
     width: 300
     height: 230
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4837,8 +4840,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 30
-    y: 800.3218
+    x: 14
+    y: 1421
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5719,6 +5722,7 @@ MonoBehaviour:
   - {fileID: 193596744}
   - {fileID: 1377505139}
   - {fileID: 1111290668}
+  - {fileID: 1648732732}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

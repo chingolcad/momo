@@ -125,8 +125,10 @@
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryCheck.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryCheckSelected.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryCrafting.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryHide.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventorySelect.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventorySet.cs" />
+    <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInventoryShow.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionInvProperty.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionManageProfiles.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Actions\ActionManageSaves.cs" />
