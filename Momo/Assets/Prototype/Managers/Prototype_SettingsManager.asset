@@ -42,7 +42,7 @@ MonoBehaviour:
     showInFilter: 0
     limitToCategories: 0
     categoryIDs: 
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: cc875e63e37014adc9e35545bbab1176, type: 2}
   blackOutWhenSkipping: 0
   playerSwitching: 1
   player: {fileID: 2489511434910794204, guid: 210e1d85a0537432eabecb596fb0b207, type: 3}

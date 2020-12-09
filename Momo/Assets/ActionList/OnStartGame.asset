@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: OnStartGame
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 114527281953758818}
+  - {fileID: 114159454326219476}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -23,7 +23,7 @@ MonoBehaviour:
   revertToDefaultParametersAfterRunning: 0
   parameters: []
   tagID: 0
---- !u!114 &114527281953758818
+--- !u!114 &114159454326219476
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,13 +32,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: Wait
+  m_Script: {fileID: 11500000, guid: f62d99af8064d446691b72ad13d423e7, type: 3}
+  m_Name: ActionPlayerLock
   m_EditorClassIdentifier: 
   id: 0
-  category: 6
-  title: Wait
-  description: Waits a set time before continuing.
+  category: 14
+  title: Constrain
+  description: Locks and unlocks various aspects of Player control. When using Direct
+    or First Person control, can also be used to specify a Path object to restrict
+    movement to.
   isDisplayed: 1
   showComment: 0
   comment: 
@@ -50,16 +52,25 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  parameterID: -1
-  timeToPause: 0
+  doUpLock: 2
+  doDownLock: 2
+  doLeftLock: 2
+  doRightLock: 2
+  doRunLock: 1
+  doJumpLock: 2
+  freeAimLock: 2
+  cursorState: 2
+  doGravityLock: 2
+  doHotspotHeadTurnLock: 2
+  movePath: {fileID: 0}
