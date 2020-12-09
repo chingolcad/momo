@@ -291,6 +291,69 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &68250864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d4ab0f7ce3d4193a55deb9d20a7d66, type: 3}
+  m_Name: ActionTeleport
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 12
+  title: Teleport
+  description: Moves a GameObject to a Marker instantly. Can also copy the Marker's
+    rotation. The final position can optionally be made relative to the active camera,
+    or the player. For example, if the Marker's position is (0, 0, 1) and Positon
+    relative to is set to Relative To Active Camera, then the object will be teleported
+    in front of the camera.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 4
+  skipActionActual: {fileID: 68250864}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 72.65924
+    y: 845
+    width: 300
+    height: 158
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3158577104703640908}
+  obToMoveParameterID: -1
+  obToMoveID: 0
+  obToMove: {fileID: 795351751}
+  markerParameterID: -1
+  markerID: 0
+  teleporter: {fileID: 689385568}
+  relativeGameObject: {fileID: 0}
+  relativeGameObjectID: 0
+  relativeGameObjectParameterID: -1
+  positionRelativeTo: 0
+  relativeVectorParameterID: -1
+  relativeVector: {x: 0, y: 0, z: 0}
+  vectorVarParameterID: -1
+  vectorVarID: 0
+  variableLocation: 0
+  recalculateActivePathFind: 0
+  isPlayer: 0
+  snapCamera: 0
+  copyRotation: 0
+  variables: {fileID: 0}
+  variablesConstantID: 0
 --- !u!114 &71623320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,9 +376,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: 21
-  skipActionActual: {fileID: 1275909686}
+  endAction: 2
+  skipAction: 17
+  skipActionActual: {fileID: 691950751}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -326,7 +389,7 @@ MonoBehaviour:
     x: 14
     y: 3615
     width: 300
-    height: 122
+    height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3996977702369925204}
@@ -359,7 +422,7 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 22
+  skipAction: 21
   skipActionActual: {fileID: 1924818183}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -566,8 +629,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 358
+    y: 618
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -971,60 +1034,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &199497584
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43d93df5227e14ac692429ea860d7d05, type: 3}
-  m_Name: ActionInputCheck
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 8
-  title: Check
-  description: Queries whether or not the player is invoking a button or axis declared
-    in Unity's Input manager.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 2
-  willWait: 0
-  endAction: 0
-  skipAction: 2
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 146
-    y: 385
-    width: 300
-    height: 122
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  resultActionTrue: 0
-  skipActionTrue: -1
-  skipActionTrueActual: {fileID: 0}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 0}
-  resultActionFail: 1
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 0}
-  inputName: 
-  parameterID: -1
-  checkType: 0
-  axisCondition: 0
-  axisValue: 0
 --- !u!1 &231637405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,8 +1401,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 362
+    y: 347
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1482,7 +1491,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 26
-    y: 269
+    y: 386
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1566,6 +1575,46 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &522204549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: ActionPause
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 6
+  title: Wait
+  description: Waits a set time before continuing.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 1553696864}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 104
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3158577104703640908}
+  parameterID: -1
+  timeToPause: 0
 --- !u!1 &528853123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,7 +1765,7 @@ MonoBehaviour:
     x: 14
     y: 1047
     width: 300
-    height: 171
+    height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3996977702369925204}
@@ -1767,6 +1816,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 456794992919898306}
+  - {fileID: 3576730628457107770}
   m_Father: {fileID: 231637406}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1894,8 +1944,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 3937
+    x: 21
+    y: 3844
     width: 300
     height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2342,6 +2392,50 @@ MonoBehaviour:
   tempTexture: {fileID: 0}
   tempTextureParameterID: -1
   forceCompleteTransition: 1
+--- !u!114 &883376738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: ActionHotspotEnable
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 7
+  title: Enable or disable
+  description: Turns a Hotspot on or off. To record the state of a Hotspot in save
+    games, be sure to add the RememberHotspot script to the Hotspot in question.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 4
+  skipActionActual: {fileID: 68250864}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 144
+    y: 719
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3158577104703640908}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 5169941702386673417}
+  affectChildren: 0
+  changeType: 1
 --- !u!114 &883641990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2639,6 +2733,66 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942581430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6077d013acc8544208576e85caf44b97, type: 3}
+  m_Name: ActionInventoryCheck
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Check
+  description: Queries whether or not the player is carrying an item. If the player
+    can carry multiple amounts of the item, more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 2
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1
+    y: 185
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  resultActionTrue: 0
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 1
+  skipActionFailActual: {fileID: 445508063}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  parameterID: -1
+  invID: 3
+  invCheckType: 0
+  checkNumberInCategory: 0
+  categoryIDToCheck: 0
+  doCount: 0
+  intValueParameterID: -1
+  intValue: 1
+  intCondition: 0
+  setPlayer: 0
+  playerID: 0
 --- !u!1 &966671655
 GameObject:
   m_ObjectHideFlags: 0
@@ -2983,6 +3137,55 @@ MonoBehaviour:
   charToMove: {fileID: 0}
   isPlayer: 1
   relativeTo: 0
+--- !u!114 &1041390552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20a14d7555494a439c838ed9465bb15, type: 3}
+  m_Name: ActionConversation
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Start conversation
+  description: Enters Conversation mode, and displays the available dialogue options
+    in a specified conversation.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 1
+  endAction: 1
+  skipAction: 7
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 349.2591
+    y: 500
+    width: 300
+    height: 122
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3745405287497625760}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  parameterID: -1
+  constantID: 0
+  conversation: {fileID: 3576730628463917306}
+  overrideOptions: 0
 --- !u!114 &1048402427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3006,9 +3209,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  endAction: 1
+  skipAction: 1
+  skipActionActual: {fileID: 1048402427}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3016,8 +3219,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 66
-    y: 251
+    x: 18
+    y: 347
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3593,7 +3796,7 @@ Transform:
   m_Father: {fileID: 903560016}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1275909686
+--- !u!114 &1271796333
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3602,22 +3805,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: ActionVisible
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: ActionPause
   m_EditorClassIdentifier: 
   id: 0
-  category: 12
-  title: Visibility
-  description: Hides or shows a GameObject. Can optionally affect the GameObject's
-    children.
+  category: 6
+  title: Wait
+  description: Waits a set time before continuing.
   isDisplayed: 1
   showComment: 0
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 2
-  skipAction: 17
-  skipActionActual: {fileID: 691950751}
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3626,17 +3828,14 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3767
+    y: 14
     width: 300
-    height: 140
+    height: 86
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3996977702369925204}
+  parentActionListInEditor: {fileID: 2005175169999775658}
   parameterID: -1
-  constantID: 0
-  obToAffect: {fileID: 97679175}
-  affectChildren: 0
-  visState: 1
+  timeToPause: 0
 --- !u!1 &1277472174
 GameObject:
   m_ObjectHideFlags: 0
@@ -3898,6 +4097,65 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1289597878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 1041390552}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 349
+    y: 230
+    width: 300
+    height: 176
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3745405287497625760}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  speaker: {fileID: 0}
+  messageText: Take the Coffee Cup?
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &1318405221
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,8 +4380,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 1
-  skipActionActual: {fileID: 445508063}
+  skipAction: 2
+  skipActionActual: {fileID: 942581430}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4168,9 +4426,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 4
+  skipActionActual: {fileID: 1555551382}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4181,7 +4439,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 86
+    height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3745405287497625760}
@@ -4505,6 +4763,222 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1553696864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17caceb7c704422c8f9850690528e78, type: 3}
+  m_Name: ActionDialogOption
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Toggle option
+  description: Sets the display of a dialogue option. Can hide, show, and lock options.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1915559174}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 65
+    y: 167
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3158577104703640908}
+  switchType: 0
+  optionNumber: 0
+  constantID: 0
+  linkedConversation: {fileID: 3576730628463917306}
+--- !u!114 &1555551382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6077d013acc8544208576e85caf44b97, type: 3}
+  m_Name: ActionInventoryCheck
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Check
+  description: Queries whether or not the player is carrying an item. If the player
+    can carry multiple amounts of the item, more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 2
+  willWait: 0
+  endAction: 0
+  skipAction: 4
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 29
+    y: 140
+    width: 300
+    height: 158
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3745405287497625760}
+  resultActionTrue: 2
+  skipActionTrue: 2
+  skipActionTrueActual: {fileID: 1289597878}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 1
+  skipActionFailActual: {fileID: 1048402427}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  parameterID: -1
+  invID: 3
+  invCheckType: 0
+  checkNumberInCategory: 0
+  categoryIDToCheck: 0
+  doCount: 0
+  intValueParameterID: -1
+  intValue: 1
+  intCondition: 0
+  setPlayer: 0
+  playerID: 0
+--- !u!114 &1558235803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d93df5227e14ac692429ea860d7d05, type: 3}
+  m_Name: ActionInputCheck
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 8
+  title: Check
+  description: Queries whether or not the player is invoking a button or axis declared
+    in Unity's Input manager.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 2
+  willWait: 0
+  endAction: 0
+  skipAction: 2
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 146
+    y: 385
+    width: 300
+    height: 122
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6516291587219412009}
+  resultActionTrue: 0
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 1
+  skipActionFail: -1
+  skipActionFailActual: {fileID: 0}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  inputName: 
+  parameterID: -1
+  checkType: 0
+  axisCondition: 0
+  axisValue: 0
+--- !u!114 &1561361951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6077d013acc8544208576e85caf44b97, type: 3}
+  m_Name: ActionInventoryCheck
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Check
+  description: Queries whether or not the player is carrying an item. If the player
+    can carry multiple amounts of the item, more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 2
+  willWait: 0
+  endAction: 1
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 1
+    y: 185
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6137184323487348173}
+  resultActionTrue: 0
+  skipActionTrue: -1
+  skipActionTrueActual: {fileID: 0}
+  linkedCutsceneTrue: {fileID: 0}
+  linkedAssetTrue: {fileID: 0}
+  resultActionFail: 2
+  skipActionFail: 1
+  skipActionFailActual: {fileID: 445508063}
+  linkedCutsceneFail: {fileID: 0}
+  linkedAssetFail: {fileID: 0}
+  parameterID: -1
+  invID: 3
+  invCheckType: 0
+  checkNumberInCategory: 0
+  categoryIDToCheck: 0
+  doCount: 0
+  intValueParameterID: -1
+  intValue: 1
+  intCondition: 0
+  setPlayer: 0
+  playerID: 0
 --- !u!114 &1572277727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4637,8 +5111,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 176
+    x: 22
+    y: 121
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4698,8 +5172,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1
-    y: 14
+    x: 25
+    y: 333
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5181,6 +5655,50 @@ MonoBehaviour:
   renderFading: 1
   restoreTransformOnLoadVR: 0
   forwardDirection: 0
+--- !u!114 &1856694206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
+  m_Name: ActionVisible
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 12
+  title: Visibility
+  description: Hides or shows a GameObject. Can optionally affect the GameObject's
+    children.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 5
+  skipActionActual: {fileID: 883376738}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 538
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3158577104703640908}
+  parameterID: -1
+  constantID: 0
+  obToAffect: {fileID: 795351751}
+  affectChildren: 0
+  visState: 1
 --- !u!1 &1861522828
 GameObject:
   m_ObjectHideFlags: 0
@@ -5602,6 +6120,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1915559174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: ActionInventorySet
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 9
+  title: Add or remove
+  description: Adds or removes an item from the Player's inventory. Items are defined
+    in the Inventory Manager. If the player can carry multiple amounts of the item,
+    more options will show.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 1856694206}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 44
+    y: 346
+    width: 300
+    height: 140
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3158577104703640908}
+  invAction: 0
+  parameterID: -1
+  invID: 2
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
 --- !u!114 &1919038837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5635,8 +6205,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 4143
+    x: 29
+    y: 4117
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5647,7 +6217,7 @@ MonoBehaviour:
   messageParameterID: -1
   isPlayer: 1
   speaker: {fileID: 0}
-  messageText: Mom.. Mom?? Where did she go??
+  messageText: 'Mom.. '
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -5788,6 +6358,65 @@ Transform:
   m_Father: {fileID: 903560016}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970619199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: ActionSpeech
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 4
+  title: Play speech
+  description: "Makes a Character talk, or \u2013 if no Character is specified \u2013
+    displays a message. Subtitles only appear if they are enabled from the Options
+    menu. A 'thinking' effect can be produced by opting to not play any animation."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 1
+  skipAction: 3
+  skipActionActual: {fileID: 1970619199}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 358
+    y: 82
+    width: 300
+    height: 189
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6137184323487348173}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  speaker: {fileID: 168749864}
+  messageText: Why are you starring at me like that, silly goose?
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1971639501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6008,6 +6637,8 @@ Transform:
   - {fileID: 5051176642505570201}
   - {fileID: 21931411}
   - {fileID: 1618147801918923367}
+  - {fileID: 3158577104696720524}
+  - {fileID: 2005175170010893930}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7433,6 +8064,63 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   syncParamValues: 1
+--- !u!114 &2005175169999775658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005175170010534474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1271796333}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+--- !u!1 &2005175170010534474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2005175170010893930}
+  - component: {fileID: 2005175169999775658}
+  m_Layer: 0
+  m_Name: CoffeeCup_Option2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2005175170010893930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005175170010534474}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2066552674}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2099752310645553936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7874,6 +8562,219 @@ MonoBehaviour:
   afterOffset: {x: 0, y: 0}
   doSnapping: 0
   unitSnap: 0.1
+--- !u!4 &3158577104696720524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158577104697073836}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2066552674}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3158577104697073836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3158577104696720524}
+  - component: {fileID: 3158577104703640908}
+  m_Layer: 0
+  m_Name: CoffeeCup_Option
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &3158577104703640908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3158577104697073836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 522204549}
+  - {fileID: 1915559174}
+  - {fileID: 1553696864}
+  - {fileID: 1856694206}
+  - {fileID: 68250864}
+  - {fileID: 883376738}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+--- !u!4 &3576730628457107770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3576730628457336090}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 688333907}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3576730628457336090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3576730628457107770}
+  - component: {fileID: 3576730628463917304}
+  - component: {fileID: 3576730628463917306}
+  m_Layer: 2
+  m_Name: CoffeeCup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &3576730628463917304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3576730628457336090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b1b97fe2b064fe387b7909723534cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 75592
+  retainInPrefab: 0
+  autoManual: 0
+--- !u!114 &3576730628463917306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3576730628457336090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21667ad3f1ae4696857cd09075624f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionSource: 0
+  options:
+  - label: Yes
+    lineID: -1
+    icon: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+    isOn: 1
+    isLocked: 0
+    conversationAction: 1
+    newConversation: {fileID: 0}
+    ID: 1
+    hasBeenChosen: 0
+    linkToInventory: 0
+    linkedInventoryID: 0
+    dialogueOption: {fileID: 3158577104703640908}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+  - label: No
+    lineID: -1
+    icon: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+    isOn: 1
+    isLocked: 0
+    conversationAction: 1
+    newConversation: {fileID: 0}
+    ID: 2
+    hasBeenChosen: 0
+    linkToInventory: 0
+    linkedInventoryID: 0
+    dialogueOption: {fileID: 2005175169999775658}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+  selectedOption:
+    label: No
+    lineID: -1
+    icon: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.015
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+    isOn: 1
+    isLocked: 0
+    conversationAction: 1
+    newConversation: {fileID: 0}
+    ID: 2
+    hasBeenChosen: 0
+    linkToInventory: 0
+    linkedInventoryID: 0
+    dialogueOption: {fileID: 2005175169999775658}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+  lastOption: -1
+  autoPlay: 0
+  isTimed: 0
+  timer: 5
+  defaultOption: 0
 --- !u!114 &3745405287497625760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7889,6 +8790,9 @@ MonoBehaviour:
   actions:
   - {fileID: 1442978669}
   - {fileID: 1048402427}
+  - {fileID: 1289597878}
+  - {fileID: 1041390552}
+  - {fileID: 1555551382}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -8107,7 +9011,6 @@ MonoBehaviour:
   - {fileID: 861773550}
   - {fileID: 1771168707}
   - {fileID: 71623320}
-  - {fileID: 1275909686}
   - {fileID: 1924818183}
   isSkippable: 1
   triggerTime: 0
@@ -9065,6 +9968,8 @@ MonoBehaviour:
   actions:
   - {fileID: 1403834780}
   - {fileID: 445508063}
+  - {fileID: 1561361951}
+  - {fileID: 1970619199}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -9092,7 +9997,7 @@ MonoBehaviour:
   actions:
   - {fileID: 1656394030}
   - {fileID: 735610857}
-  - {fileID: 199497584}
+  - {fileID: 1558235803}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

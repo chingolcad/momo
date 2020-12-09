@@ -1603,10 +1603,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 43.96
-    y: 6.28
-    width: 1142.9601
-    height: 96.36
+    x: 52.01
+    y: 7.43
+    width: 1352.26
+    height: 114.84
   relativePosition: {x: 0, y: 0}
   numSlots: 13
   uiSlots:
@@ -1944,6 +1944,361 @@ MonoBehaviour:
       lineID: -1
     useActionList: {fileID: 0}
     lookActionList: {fileID: 11400000, guid: 31d4d7e552b304466bb7226f3186ed14, type: 2}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    showInFilter: 1
+  - label: Old Toy
+    id: 4
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartID: 0
+    vars:
+    - label: Property 1
+      id: 0
+      type: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    useSeparateSlots: 0
+    selectSingle: 0
+    tex: {fileID: 0}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    recipeSlot: -1
+    lastInteractionIndex: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    showInFilter: 1
+  - label: Birthday Cake
+    id: 5
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartID: 0
+    vars:
+    - label: Property 1
+      id: 0
+      type: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    useSeparateSlots: 0
+    selectSingle: 0
+    tex: {fileID: 0}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    recipeSlot: -1
+    lastInteractionIndex: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    showInFilter: 1
+  - label: Flag Banner
+    id: 6
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartID: 0
+    vars:
+    - label: Property 1
+      id: 0
+      type: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    useSeparateSlots: 0
+    selectSingle: 0
+    tex: {fileID: 0}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    recipeSlot: -1
+    lastInteractionIndex: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    showInFilter: 1
+  - label: Scissors
+    id: 7
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartID: 0
+    vars:
+    - label: Property 1
+      id: 0
+      type: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    useSeparateSlots: 0
+    selectSingle: 0
+    tex: {fileID: 0}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    recipeSlot: -1
+    lastInteractionIndex: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    showInFilter: 1
+  - label: Candles
+    id: 8
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartID: 0
+    vars:
+    - label: Property 1
+      id: 0
+      type: 1
+      val: 0
+      floatVal: 0
+      textVal: 
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 0
+      categoryIDs: 
+    canCarryMultiple: 0
+    count: 1
+    useSeparateSlots: 0
+    selectSingle: 0
+    tex: {fileID: 0}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    recipeSlot: -1
+    lastInteractionIndex: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
     interactions: []
     combineActionList: []
     combineID: 
@@ -2774,10 +3129,10 @@ MonoBehaviour:
   linkedUiID: 1781752
   relativeRect:
     serializedVersion: 2
-    x: 1218.3201
-    y: 9.936228
-    width: 31.400002
-    height: 96.36
+    x: 1441.4199
+    y: 11.841805
+    width: 37.149998
+    height: 114.84
   relativePosition: {x: 97, y: 9}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -5780,19 +6135,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 0
+  menuSource: 1
   canvas: {fileID: 22300000, guid: 158d399da8a2c4c5aa787155433a666c, type: 3}
-  canvasID: 0
+  canvasID: 57134
   rectTransform: {fileID: 0}
   rectTransformID: 1765320
   uiTransitionType: 1
   uiPositionType: 0
-  isLocked: 1
+  isLocked: 0
   id: 3
   title: Inventory
   manualSize: {x: 100, y: 12.60303}
   positionType: 1
-  manualPosition: {x: 628, y: 55.20127}
+  manualPosition: {x: 743, y: 65.78781}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -5870,8 +6225,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1256
-    height: 110.40254
+    width: 1486
+    height: 131.57562
   showInFilter: 1
 --- !u!114 &114629839743933926
 MonoBehaviour:
@@ -8375,10 +8730,10 @@ MonoBehaviour:
   linkedUiID: 1772982
   relativeRect:
     serializedVersion: 2
-    x: 6.28
-    y: 6.28
-    width: 31.400002
-    height: 96.36
+    x: 7.43
+    y: 7.43
+    width: 37.149998
+    height: 114.84
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}

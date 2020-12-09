@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: 7fc6b8efc898741e583552c833fb470b
+  - enabled: 1
+    path: Assets/Scenes/Staircase.unity
+    guid: fb2c9a34ec05f4a349dcda201a0f41c1
   m_configObjects: {}
