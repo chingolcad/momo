@@ -137,7 +137,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -208,7 +208,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
     count: 1
     useSeparateSlots: 0
     selectSingle: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: b4ca36a3870b54bca884b10f2bb04c5f, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -350,7 +350,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: 0
+    binID: 1
     recipeSlot: -1
     lastInteractionIndex: 0
     overrideUseSyntax: 0
@@ -361,7 +361,7 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 0}
-    lookActionList: {fileID: 0}
+    lookActionList: {fileID: 11400000, guid: 905e2b96f118544a9a58e3b929da5655, type: 2}
     interactions: []
     combineActionList: []
     combineID: 

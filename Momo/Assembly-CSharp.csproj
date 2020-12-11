@@ -468,8 +468,8 @@
     <Compile Include="Assets\AdventureCreator\Scripts\Variables\VariableLinkingExample.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Variables\Variables.cs" />
     <Compile Include="Assets\AdventureCreator\Scripts\Variables\VarPreset.cs" />
-    <Compile Include="Assets\Prototype\Momo\asset\Title\Quitonclick.cs" />
-    <Compile Include="Assets\Prototype\Momo\asset\Title\StartGame.cs" />
+    <Compile Include="Assets\Prototype\Art Asset\asset\Title\Quitonclick.cs" />
+    <Compile Include="Assets\Prototype\Art Asset\asset\Title\StartGame.cs" />
     <Compile Include="Assets\QuitOnClick.cs" />
     <None Include="Assets\AdventureCreator\Graphics\Fonts\SIL Open Font License.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">

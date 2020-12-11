@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1161,6 +1161,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Momo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862824544154286088, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489511434910794204, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: runSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e276f060524c84f189dc322c184a92ea, type: 3}
+    - target: {fileID: 2489511434910794204, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: walkSpeedScale
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
         type: 3}
