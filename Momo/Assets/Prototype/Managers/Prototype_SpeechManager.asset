@@ -26,7 +26,7 @@ MonoBehaviour:
   screenTimeFactor: 0.1
   allowSpeechSkipping: 0
   allowGameplaySpeechSkipping: 0
-  skipThresholdTime: 0
+  skipThresholdTime: 1
   endScrollBeforeSkip: 0
   scrollingTextFactorsLength: 1
   syncSubtitlesToAudio: 0

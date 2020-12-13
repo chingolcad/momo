@@ -100,14 +100,14 @@ MonoBehaviour:
     x: 37
     y: 160
     width: 300
-    height: 202
+    height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   constantID: 0
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 0
+  isPlayer: 1
   speaker: {fileID: 0}
   messageText: A key for locked doors.
   lineID: -1
