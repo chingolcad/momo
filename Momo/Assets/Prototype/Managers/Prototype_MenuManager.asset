@@ -450,10 +450,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 5.67
-    y: 5.67
-    width: 181.44
-    height: 51.9
+    x: 6.7
+    y: 6.7
+    width: 214.4
+    height: 52.9
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -755,10 +755,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 5.67
-    y: 63.239998
-    width: 181.44
-    height: 51.9
+    x: 6.7
+    y: 66.3
+    width: 214.4
+    height: 52.9
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -10281,9 +10281,9 @@ MonoBehaviour:
   isLocked: 0
   id: 15
   title: Ending
-  manualSize: {x: 17, y: 11.638728}
+  manualSize: {x: 17, y: 11.899811}
   positionType: 0
-  manualPosition: {x: 567, y: 519}
+  manualPosition: {x: 670, y: 529}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -10354,13 +10354,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 187.11, y: 115.14}
+  biggestElementSize: {x: 221.09999, y: 119.200005}
   rect:
     serializedVersion: 2
-    x: 470.61
-    y: 458.595
-    width: 192.78
-    height: 120.81
+    x: 556.1
+    y: 466.05
+    width: 227.79999
+    height: 125.9
   showInFilter: 1
 --- !u!114 &114972734269011758
 MonoBehaviour:
