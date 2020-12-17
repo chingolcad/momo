@@ -1,12 +1,19 @@
 WebGL
 PlayerPath?
-/Users/chingo/Momo_01
+/Users/chingo/Momo_02
 SceneListBegin?
 Assets/Scenes/Bedroom.unity
 Assets/Scenes/Hallway.unity
 Assets/Scenes/Kitchen.unity
+Assets/Scenes/LivingRoom.unity
+Assets/Scenes/Staircase.unity
+Assets/Scenes/Hallway02.unity
+Assets/Scenes/Kitchen02.unity
+Assets/Scenes/LivingRoom02.unity
+Assets/Scenes/Garden.unity
 SceneListEnd?
 1a532488805116a1a2c1a0180dbb4143 Assembly-CSharp.dll:AC.MenuJournal
+a2bfe7895f1f358b28b0ad2da270af6b Assembly-CSharp.dll:AC.ActionInventoryShow
 6efce96f035e7dbec64af022cd55c6fe Assembly-CSharp.dll:AC.ActionDocumentOpen
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:AC.RuntimeLanguages
@@ -179,6 +186,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 85c48372f8af6f57f44dca9f39a8d860 Assembly-CSharp.dll:AC.ActionManageProfiles
 bf33f3690661c6eb0c84b0bb21e9d644 Assembly-CSharp.dll:AC.ActionSaveCheck
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.QuitOnClick
 bb926a803ed4b14bf8666f093691733c Assembly-CSharp.dll:AC.AutoLipSync
 cbe32282a03c4faf310a8a5e380c4503 Assembly-CSharp.dll:AC.ActionCharPathFind
 321a89a242b0781b65878fedead46231 Assembly-CSharp.dll:AC.ActionFootstepSounds
@@ -391,6 +399,7 @@ cb2f0fdffc0f224df27254b710cc3d81 Assembly-CSharp.dll:AC.CameraFadeShot
 2da5f2a5105d6bc7afc4ede133b0304c Assembly-CSharp.dll:AC.ActionDialogOptionRename
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:AC.AdvGame
+a2bfe7895f1f358b28b0ad2da270af6b Assembly-CSharp.dll:AC.ActionInventoryHide
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:AC.EventManager
 cd6a651985ccd517a81e36916d772c89 Assembly-CSharp.dll:AC.ActionHighlight
 50826e1937f04d5e6fe783bafe8e46b5 Assembly-CSharp.dll:AC.ActionFade
@@ -416,6 +425,7 @@ c6094fddc8593a101dae8220b3130c39 Assembly-CSharp.dll:AC.MenuInventoryBox
 e9ade445efe8c2d74a5e98463a30b215 Assembly-CSharp.dll:AC.AutoCorrectUIDimensions
 6adf0680d8d7e110dab1c5470b12851b Assembly-CSharp.dll:AC.SaveFileManager
 c2ad5039b140651346de718332b43898 Assembly-CSharp.dll:AC.ActionMenuSlotCheck
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StartGame
 8eef45823a0b86478f3a7aa1864c2f4a Assembly-CSharp.dll:AC.MenuInput
 f5846fae44d5cd6f9a8df12fbc9a9510 Assembly-CSharp.dll:AC.ActionManageSaves
 88de5a2fa8d0c47023afd3a0120f6251 Assembly-CSharp.dll:AC.SpeechManager
@@ -479,5 +489,3 @@ b7fda7e1edf0ce3df3d3b71ddff725fb Assembly-CSharp.dll:AC.ActionCameraCrossfade
 a5e6355bbfa282a9e49c47a6389821c2 Assembly-CSharp.dll:AC.ActionVarPopup
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:AC.RuntimeDocuments
 19d3b9c243ea213940ce06d8bfa13e38 Assembly-CSharp.dll:AC.ActionAmbience
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.StartGame
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.QuitOnClick

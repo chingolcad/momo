@@ -265,8 +265,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 687
-    y: 500.34058
+    x: 454
+    y: 297.34058
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1669,7 +1669,7 @@ MonoBehaviour:
   willWait: 0
   endAction: 2
   skipAction: 8
-  skipActionActual: {fileID: 2125699428}
+  skipActionActual: {fileID: 1368355415}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1677,8 +1677,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 152
-    y: 885.1387
+    x: 325
+    y: 815.1387
     width: 300
     height: 104
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3335,8 +3335,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 307.59998
-    y: 723.4541
+    x: 22.599976
+    y: 670.4541
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4256,6 +4256,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368355415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5f732c6ec2146fb936dc802259115e, type: 3}
+  m_Name: ActionInventoryHide
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 20
+  title: Hide Inventory
+  description: Hide Inventory when adding or removing an item from the Player's inventory.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 2142632212}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 305
+    y: 940.4287
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 8411562718528584252}
+  invAction: 0
 --- !u!114 &1372769361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4288,8 +4327,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 281.59998
-    y: 594.7998
+    x: 31.599976
+    y: 464.7998
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4557,8 +4596,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 95.599976
-    y: 364
+    x: 26.599976
+    y: 304
     width: 300
     height: 140
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5231,8 +5270,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 42
-    y: 708.10815
+    x: 300
+    y: 605.10815
     width: 300
     height: 60
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6943,45 +6982,6 @@ Transform:
   m_Father: {fileID: 903560016}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2125699428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05609620b64204339bd35aa56f0ca97e, type: 3}
-  m_Name: ActionInventoryShow
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 20
-  title: Show Inventory
-  description: Show Inventory when adding or removing an item from the Player's inventory.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 2142632212}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 490
-    y: 947.4287
-    width: 300
-    height: 60
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 8411562718528584252}
-  invAction: 0
 --- !u!114 &2142632212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7015,8 +7015,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 270.59998
-    y: 1016
+    x: 20.599976
+    y: 1027
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -10420,7 +10420,7 @@ MonoBehaviour:
   - {fileID: 1073756889}
   - {fileID: 60195538}
   - {fileID: 1645127863}
-  - {fileID: 2125699428}
+  - {fileID: 1368355415}
   - {fileID: 546701213}
   isSkippable: 1
   triggerTime: 0
