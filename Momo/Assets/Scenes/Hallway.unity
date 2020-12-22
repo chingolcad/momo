@@ -263,6 +263,57 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 3969279291673615958}
   parameterID: -1
   timeToPause: 0
+--- !u!114 &159155731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f62d99af8064d446691b72ad13d423e7, type: 3}
+  m_Name: ActionPlayerLock
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 14
+  title: Constrain
+  description: Locks and unlocks various aspects of Player control. When using Direct
+    or First Person control, can also be used to specify a Path object to restrict
+    movement to.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 1
+  skipActionActual: {fileID: 159155731}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 202
+    width: 300
+    height: 158
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6662565878877228590}
+  doUpLock: 2
+  doDownLock: 2
+  doLeftLock: 2
+  doRightLock: 2
+  doRunLock: 1
+  doJumpLock: 2
+  freeAimLock: 2
+  cursorState: 2
+  doGravityLock: 2
+  doHotspotHeadTurnLock: 2
+  movePath: {fileID: 0}
 --- !u!1 &192519201
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,9 +420,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 159155731}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -382,7 +433,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 140
+    height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 6662565878877228590}
@@ -3109,6 +3160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 302365947}
+  - {fileID: 159155731}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -3382,10 +3434,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -3.2242107, y: 2.495284}
-      - {x: -2.0256672, y: 1.7090803}
-      - {x: 2.212702, y: -0.8591753}
-      - {x: 3.6379955, y: -0.026973307}
+    - - {x: -3.038924, y: 2.519989}
+      - {x: -2.005905, y: 1.8013127}
+      - {x: -0.54214174, y: 0.84193605}
+      - {x: -0.6306279, y: 0.23381144}
+      - {x: 0.29114974, y: -0.4748729}
+      - {x: 1.4300578, y: -1.151012}
+      - {x: 2.024055, y: -0.6607824}
+      - {x: 2.4386146, y: -0.837035}
+      - {x: 3.6879413, y: -0.03945969}
       - {x: 5.7278285, y: -0.9492008}
       - {x: 1.748598, y: -3.7528603}
       - {x: -5.8107333, y: 1.5239372}
