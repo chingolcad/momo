@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074, b: 0.35872698, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -241,7 +241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &183532438
 Transform:
   m_ObjectHideFlags: 0
@@ -1383,6 +1383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeTexture: {fileID: 2800000, guid: 2de7d16b4ac4b402182d4f2ca40e0b2d, type: 3}
   renderFading: 1
+  restoreTransformOnLoadVR: 0
   forwardDirection: 0
 --- !u!1 &558944030
 GameObject:
@@ -1400,7 +1401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &558944031
 Transform:
   m_ObjectHideFlags: 0
@@ -1448,7 +1449,8 @@ PolygonCollider2D:
       - {x: -1.875, y: -0.86760455}
       - {x: -1.0888276, y: -1.2010987}
       - {x: -0.48064673, y: -0.91343}
-      - {x: -0.078323245, y: -1.0954952}
+      - {x: -0.05555874, y: -1.175171}
+      - {x: 0.671115, y: -0.75856316}
       - {x: 0.65404147, y: -0.68457854}
 --- !u!114 &575888062
 MonoBehaviour:
@@ -1841,7 +1843,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 483
+    y: 527
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1939,7 +1941,7 @@ MonoBehaviour:
   showComment: 0
   comment: 
   numSockets: 1
-  willWait: 0
+  willWait: 1
   endAction: 2
   skipAction: 1
   skipActionActual: {fileID: 1508409623}
@@ -1953,7 +1955,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 176
+    height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 7021026714637460412}
@@ -1961,7 +1963,7 @@ MonoBehaviour:
   markerParameterID: -1
   charToMoveID: 0
   markerID: 0
-  marker: {fileID: 0}
+  marker: {fileID: 728271590968188286}
   isPlayer: 1
   charToMove: {fileID: 0}
   speed: 0
@@ -2438,8 +2440,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 1
+  skipActionActual: {fileID: 1163017259}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2447,10 +2449,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 86
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 286236565316114857}
@@ -2480,8 +2482,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 2
+  skipActionActual: {fileID: 1061393068}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2489,10 +2491,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 331
     width: 300
-    height: 60
+    height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 286236565316114857}
@@ -2747,8 +2749,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 2
+  skipActionActual: {fileID: 1061393068}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -2756,10 +2758,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 130
     width: 300
-    height: 60
+    height: 171
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 286236565316114857}
@@ -3650,7 +3652,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 220
+    y: 264
     width: 300
     height: 233
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4376,7 +4378,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 671
+    y: 715
     width: 300
     height: 122
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7522,10 +7524,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.36176255, y: -0.014036222}
-      - {x: -0.066536084, y: 0.21663025}
-      - {x: 0.021230377, y: 0.3153374}
-      - {x: 0.1974168, y: 0.46669346}
+    - - {x: -0.3433086, y: -0.11843269}
+      - {x: -0.104638256, y: 0.17675611}
+      - {x: 0.002310324, y: 0.0988745}
+      - {x: 0.12967518, y: 0.12378312}
+      - {x: 0.19678241, y: 0.24623518}
+      - {x: 0.1974168, y: 0.46289256}
       - {x: 0.28966, y: 0.54826254}
       - {x: 0.89764076, y: 0.09585328}
       - {x: 0.6023899, y: -0.23242505}
@@ -7536,7 +7540,7 @@ PolygonCollider2D:
       - {x: -0.59399307, y: -1.437811}
       - {x: -0.8193786, y: -1.0561064}
       - {x: -0.6754603, y: -0.7816607}
-      - {x: -0.68484765, y: -0.3720773}
+      - {x: -0.66879886, y: -0.45969707}
 --- !u!114 &8612289827615234664
 MonoBehaviour:
   m_ObjectHideFlags: 0
