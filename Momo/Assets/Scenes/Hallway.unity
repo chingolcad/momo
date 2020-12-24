@@ -138,13 +138,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16571727}
-  m_LocalRotation: {x: -0, y: -0, z: -0.3527949, w: 0.9357007}
-  m_LocalPosition: {x: -1.71, y: 1.25, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9325994, w: 0.36091307}
+  m_LocalPosition: {x: -1.58, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -41.317}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 137.68701}
 --- !u!114 &16571729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,6 +223,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &81445541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc97f6c6b883c492b87b252ed835136e, type: 3}
+  m_Name: ActionCharFaceDirection
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Face direction
+  description: "Makes a Character turn, either instantly or over time, to face a direction
+    relative to the camera \u2013 i.e. up, down, left or right."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 159155731}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 158
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6662565878877228590}
+  charToMoveParameterID: -1
+  charToMoveID: 0
+  isInstant: 1
+  direction: 7
+  charToMove: {fileID: 0}
+  isPlayer: 1
+  relativeTo: 0
 --- !u!114 &159155731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,7 +292,7 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 0
+  endAction: 1
   skipAction: 1
   skipActionActual: {fileID: 159155731}
   linkedCutscene: {fileID: 0}
@@ -257,7 +303,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 202
+    y: 220
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -358,52 +404,6 @@ MonoBehaviour:
   relativeMarkerID: 0
   relativeMarkerParameterID: -1
   forceReload: 0
---- !u!114 &302365947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc97f6c6b883c492b87b252ed835136e, type: 3}
-  m_Name: ActionCharFaceDirection
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Face direction
-  description: "Makes a Character turn, either instantly or over time, to face a direction
-    relative to the camera \u2013 i.e. up, down, left or right."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 1
-  skipActionActual: {fileID: 159155731}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 158
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 6662565878877228590}
-  charToMoveParameterID: -1
-  charToMoveID: 0
-  isInstant: 1
-  direction: 7
-  charToMove: {fileID: 0}
-  isPlayer: 1
-  relativeTo: 0
 --- !u!1 &314248347
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,46 +494,6 @@ MonoBehaviour:
   maxTime: 10
   onReachTimeLimit: 0
   faceAfter: 0
---- !u!114 &332821889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: Wait
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 6
-  title: Wait
-  description: Waits a set time before continuing.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 1741239318}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 104
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 5657973302787209695}
-  parameterID: -1
-  timeToPause: 0
 --- !u!1 &497993705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,13 +1838,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611948793}
-  m_LocalRotation: {x: -0, y: -0, z: 0.91947794, w: 0.3931417}
+  m_LocalRotation: {x: -0, y: -0, z: 0.29556033, w: -0.9553241}
   m_LocalPosition: {x: -1.003, y: -1.876, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 133.70001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 325.618}
 --- !u!114 &1611948795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2102,13 +2062,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723649744}
-  m_LocalRotation: {x: -0, y: -0, z: -0.17632024, w: 0.9843329}
+  m_LocalRotation: {x: -0, y: -0, z: 0.94086623, w: 0.33877838}
   m_LocalPosition: {x: 4.38, y: -0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -20.311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 140.395}
 --- !u!114 &1723649746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2221,7 +2181,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 148
+    y: 14
     width: 300
     height: 220
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2581,7 +2541,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 398
+    y: 264
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3172,13 +3132,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2833829103423749625}
-  m_LocalRotation: {x: -0, y: -0, z: 0.21232954, w: 0.9771981}
-  m_LocalPosition: {x: -3.947, y: 1.943, z: 0}
+  m_LocalRotation: {x: -0.00026837652, y: 0.0020587824, z: 0.9483002, w: -0.3173683}
+  m_LocalPosition: {x: -3.947, y: 1.943, z: -5.88784e-11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 24.518002}
+  m_LocalEulerAnglesHint: {x: -0.21400002, y: -0.104, z: 217.008}
 --- !u!1 &2833829103423749625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3916,9 +3876,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 332821889}
-  - {fileID: 1974956797}
   - {fileID: 1741239318}
+  - {fileID: 1974956797}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -3975,7 +3934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 302365947}
+  - {fileID: 81445541}
   - {fileID: 159155731}
   isSkippable: 1
   triggerTime: 0

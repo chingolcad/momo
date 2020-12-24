@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 538, y: 498}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 12916
+  controlID: 6636
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 448}
   m_MaxSize: {x: 4002, y: 8048}
   vertical: 1
-  controlID: 12917
+  controlID: 6637
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 498}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 12789
+  controlID: 6655
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -319,13 +319,13 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 102, y: 124}
   m_MaxSize: {x: 4002, y: 4024}
-  m_ActualView: {fileID: 26}
+  m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 23}
   - {fileID: 24}
   - {fileID: 25}
   - {fileID: 26}
-  m_Selected: 3
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -438,9 +438,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.0560257, y: 0.07566109, z: -0.05541651}
+    m_Target: {x: -1.6375304, y: 0.16796748, z: -0.03842884}
     speed: 2
-    m_Value: {x: -1.0560257, y: 0.07566109, z: -0.05541651}
+    m_Value: {x: -1.6375304, y: 0.16796748, z: -0.03842884}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -472,9 +472,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.2361827
+    m_Target: 4.735604
     speed: 2
-    m_Value: 6.2361827
+    m_Value: 4.735604
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -653,8 +653,8 @@ MonoBehaviour:
     height: 589
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ResetOnNextRepaint: 0
-  m_SelectedAssetPath: Assets/AdventureCreator/Graphics/Textures/playerstart.png
-  m_SelectedSpriteRectGUID: 5d721b5cad0834511a5ea2aa2c58580e
+  m_SelectedAssetPath: Assets/Prototype/Art Asset/asset/02_Hallway/10_Hallway.png
+  m_SelectedSpriteRectGUID: f38700af28d174303867e6c6f2573d2a
   m_LastUsedModuleTypeName: 
 --- !u!114 &19
 MonoBehaviour:
@@ -684,7 +684,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 70088
+  m_LastSelectedObjectID: 30290
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -714,9 +714,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 9a160000
       m_LastClickedID: 0
-      m_ExpandedIDs: 0c83fefff095feff3c9ffeff6ecefeffaecffeff38e0feffb2eafeff32b0ffff5cb3ffffe8b4ffff36b6ffff58b6ffff7ab6ffff98b6ffff04efffffd6fbffff824c00009a4c0000384d00006c690000dc6c0000426e0000546e00005e6e0000646e000078f30000eef80000800f0100e2100100fc1001000611010064250100e02a0100e03801008e390100ae390100
+      m_ExpandedIDs: 3283ffff8e83ffff0484ffff4484ffffb6beffff4cc0ffffd4c9ffff16d6ffff4ed6ffff9ed8ffffcad8ffffd6fbffff041b0000a21b0000ac570000b0570000c8590000685d0000805f0000e0630000f2630000f8630000e47100005c76000004af00001eaf000042b10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -896,20 +896,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prototype/Managers
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prototype/Managers
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\suner\OneDrive\Documents\GitHub\momo\Momo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 316}
-    m_SelectedIDs: 76100000
-    m_LastClickedID: 4214
-    m_ExpandedIDs: 000000003c0e0000980f0000521000004c1100002412000018130000341400004c1400004e140000001500005e1500006a150000b8150000e2170000f8170000ee1800003a190000d4450000d645000000ca9a3b
+    m_SelectedIDs: 32150000
+    m_LastClickedID: 5426
+    m_ExpandedIDs: 000000003c0e0000980f0000521000004c1100002412000018130000341400004c1400004e140000001500005e1500006a150000b8150000e2170000f8170000ee1800003a1900005a4500005c45000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -937,7 +937,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c0e0000980f0000521000004c1100002412000018130000341400004c1400004e140000001500005e1500006a150000b8150000e2170000f8170000ee1800003a190000d4450000d645000000ca9a3b
+    m_ExpandedIDs: 000000003c0e0000980f0000521000004c1100002412000018130000341400004c1400004e140000001500005e1500006a150000b8150000e2170000f8170000ee1800003a1900005a4500005c45000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1106,5 +1106,5 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   windowData:
     isLocked: 1
-    targetID: 80444
+    targetID: 46486
     targetAsset: {fileID: 0}

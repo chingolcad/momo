@@ -756,8 +756,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 1
+  skipActionActual: {fileID: 609359730}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -765,10 +765,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 14
     width: 300
-    height: 60
+    height: 86
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5848404519428785634}
@@ -1700,8 +1700,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 1
+  skipActionActual: {fileID: 609359730}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1709,10 +1709,10 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 0
-    y: 0
+    x: 14
+    y: 130
     width: 300
-    height: 60
+    height: 171
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 5848404519428785634}
@@ -2876,8 +2876,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 13
-    y: 131
+    x: 14
+    y: 130
     width: 300
     height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3416,8 +3416,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 10
-    y: 296
+    x: 14
+    y: 200
     width: 300
     height: 202
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3867,7 +3867,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1586129420
 Transform:
   m_ObjectHideFlags: 0
@@ -4134,8 +4134,8 @@ MonoBehaviour:
   numSockets: 0
   willWait: 0
   endAction: 1
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 2
+  skipActionActual: {fileID: 1673023358}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -4143,8 +4143,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 373
-    y: 392
+    x: 364
+    y: 200
     width: 300
     height: 150
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -4828,8 +4828,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 18
-    y: 346
+    x: 14
+    y: 318
     width: 300
     height: 96
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7536,10 +7536,10 @@ PolygonCollider2D:
       - {x: 0.72949785, y: -0.4138878}
       - {x: 0.38841033, y: -0.8393207}
       - {x: 0.21691707, y: -0.595628}
-      - {x: -0.49045572, y: -1.3022254}
-      - {x: -0.59399307, y: -1.437811}
+      - {x: -0.472848, y: -1.3440784}
+      - {x: -0.5688394, y: -1.4535059}
       - {x: -0.8193786, y: -1.0561064}
-      - {x: -0.6754603, y: -0.7816607}
+      - {x: -0.57995045, y: -0.8692988}
       - {x: -0.66879886, y: -0.45969707}
 --- !u!114 &8612289827615234664
 MonoBehaviour:
