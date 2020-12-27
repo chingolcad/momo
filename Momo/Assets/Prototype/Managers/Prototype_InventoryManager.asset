@@ -158,7 +158,7 @@ MonoBehaviour:
   - label: Coffee Cup
     id: 2
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartID: 0
     vars:
