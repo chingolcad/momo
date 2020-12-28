@@ -138,13 +138,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16571727}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9325994, w: 0.36091307}
+  m_LocalRotation: {x: -0, y: -0, z: 0.33282083, w: -0.9429901}
   m_LocalPosition: {x: -1.58, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 137.68701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 321.12}
 --- !u!114 &16571729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,52 +223,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &81445541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc97f6c6b883c492b87b252ed835136e, type: 3}
-  m_Name: ActionCharFaceDirection
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 2
-  title: Face direction
-  description: "Makes a Character turn, either instantly or over time, to face a direction
-    relative to the camera \u2013 i.e. up, down, left or right."
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 1
-  willWait: 0
-  endAction: 2
-  skipAction: 1
-  skipActionActual: {fileID: 159155731}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 158
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 6662565878877228590}
-  charToMoveParameterID: -1
-  charToMoveID: 0
-  isInstant: 1
-  direction: 7
-  charToMove: {fileID: 0}
-  isPlayer: 1
-  relativeTo: 0
 --- !u!114 &159155731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,9 +246,9 @@ MonoBehaviour:
   comment: 
   numSockets: 1
   willWait: 0
-  endAction: 1
+  endAction: 2
   skipAction: 1
-  skipActionActual: {fileID: 159155731}
+  skipActionActual: {fileID: 711722020}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -303,9 +257,9 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 220
+    y: 14
     width: 300
-    height: 158
+    height: 176
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 6662565878877228590}
@@ -494,6 +448,75 @@ MonoBehaviour:
   maxTime: 10
   onReachTimeLimit: 0
   faceAfter: 0
+--- !u!1001 &318081586
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8574718506815036328, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_Name
+      value: Background Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574718506814801800, guid: 8154475c9876f1c42b929cd0d3634a01,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8154475c9876f1c42b929cd0d3634a01, type: 3}
 --- !u!1 &497993705
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +786,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711722020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc97f6c6b883c492b87b252ed835136e, type: 3}
+  m_Name: ActionCharFaceDirection
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 2
+  title: Face direction
+  description: "Makes a Character turn, either instantly or over time, to face a direction
+    relative to the camera \u2013 i.e. up, down, left or right."
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 746261046}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 220
+    width: 300
+    height: 176
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6662565878877228590}
+  charToMoveParameterID: -1
+  charToMoveID: 0
+  isInstant: 0
+  direction: 7
+  charToMove: {fileID: 0}
+  isPlayer: 1
+  relativeTo: 0
 --- !u!114 &719108564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -818,6 +887,57 @@ MonoBehaviour:
   maxTime: 10
   onReachTimeLimit: 0
   faceAfter: 1
+--- !u!114 &746261046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
+  m_Name: ActionSound
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 17
+  title: Play
+  description: Triggers a Sound object to start playing. Can be used to fade sounds
+    in or out.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 0
+  skipAction: 2
+  skipActionActual: {fileID: 746261046}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 426
+    width: 300
+    height: 183
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6662565878877228590}
+  constantID: 37990
+  parameterID: -1
+  soundObject: {fileID: 8574718506803785288, guid: 8154475c9876f1c42b929cd0d3634a01,
+    type: 3}
+  audioClip: {fileID: 8300000, guid: 919e5d4c93d934225a3900a5291d78ac, type: 3}
+  audioClipParameterID: -1
+  fadeTime: 0
+  loop: 1
+  ignoreIfPlaying: 1
+  soundAction: 0
+  affectChildren: 0
+  autoEndOtherMusicWhenPlayed: 1
 --- !u!1 &778162711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,7 +1618,7 @@ MonoBehaviour:
     x: 14
     y: 506
     width: 300
-    height: 150
+    height: 168
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3969279291673615958}
@@ -1509,8 +1629,8 @@ MonoBehaviour:
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
-  relativePosition: 0
-  relativeMarker: {fileID: 0}
+  relativePosition: 1
+  relativeMarker: {fileID: 16571730}
   relativeMarkerID: 0
   relativeMarkerParameterID: -1
   forceReload: 0
@@ -1838,13 +1958,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611948793}
-  m_LocalRotation: {x: -0, y: -0, z: 0.29556033, w: -0.9553241}
+  m_LocalRotation: {x: -0, y: -0, z: -0.94051147, w: -0.33976203}
   m_LocalPosition: {x: -1.003, y: -1.876, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 325.618}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 500.27502}
 --- !u!114 &1611948795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2062,13 +2182,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1723649744}
-  m_LocalRotation: {x: -0, y: -0, z: 0.94086623, w: 0.33877838}
+  m_LocalRotation: {x: -0, y: -0, z: 0.28844082, w: -0.9574977}
   m_LocalPosition: {x: 4.38, y: -0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 140.395}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 326.471}
 --- !u!114 &1723649746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2987,13 +3107,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2833829103423749625}
-  m_LocalRotation: {x: -0.00026837652, y: 0.0020587824, z: 0.9483002, w: -0.3173683}
-  m_LocalPosition: {x: -3.947, y: 1.943, z: -5.88784e-11}
+  m_LocalRotation: {x: -0.0004143332, y: 0.002034439, z: 0.9684964, w: -0.24901913}
+  m_LocalPosition: {x: -3.947, y: 1.943, z: -3.6433087e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1072109679}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -0.21400002, y: -0.104, z: 217.008}
+  m_LocalEulerAnglesHint: {x: -0.21400002, y: -0.104, z: 208.83899}
 --- !u!1 &2833829103423749625
 GameObject:
   m_ObjectHideFlags: 0
@@ -3789,8 +3909,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 81445541}
   - {fileID: 159155731}
+  - {fileID: 711722020}
+  - {fileID: 746261046}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
