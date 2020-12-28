@@ -1162,21 +1162,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Momo
       objectReference: {fileID: 0}
-    - target: {fileID: 5862824544154286088, guid: 210e1d85a0537432eabecb596fb0b207,
+    - target: {fileID: 114438931025336388, guid: 210e1d85a0537432eabecb596fb0b207,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: constantID
+      value: 40242
       objectReference: {fileID: 0}
     - target: {fileID: 2489511434910794204, guid: 210e1d85a0537432eabecb596fb0b207,
         type: 3}
-      propertyPath: runSound
+      propertyPath: soundChild
       value: 
-      objectReference: {fileID: 8300000, guid: e276f060524c84f189dc322c184a92ea, type: 3}
-    - target: {fileID: 2489511434910794204, guid: 210e1d85a0537432eabecb596fb0b207,
-        type: 3}
-      propertyPath: walkSpeedScale
-      value: 3
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1176569104}
     - target: {fileID: 1485169077602239232, guid: 210e1d85a0537432eabecb596fb0b207,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1232,9 +1227,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2050034745246479759, guid: 210e1d85a0537432eabecb596fb0b207, type: 3}
-    - {fileID: 4348077706509710088, guid: 210e1d85a0537432eabecb596fb0b207, type: 3}
+    - target: {fileID: 2050034745246479759, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: soundToPlayFrom
+      value: 
+      objectReference: {fileID: 1176569104}
+    - target: {fileID: 8017661625050438503, guid: 210e1d85a0537432eabecb596fb0b207,
+        type: 3}
+      propertyPath: soundToPlayFrom
+      value: 
+      objectReference: {fileID: 1176569104}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 210e1d85a0537432eabecb596fb0b207, type: 3}
 --- !u!114 &533508665
 MonoBehaviour:
@@ -2836,6 +2839,18 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &1176569104 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 983570435958644874, guid: 210e1d85a0537432eabecb596fb0b207,
+    type: 3}
+  m_PrefabInstance: {fileID: 524645496}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec24addacf0f943ec9d49ef8b23addaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1217049103
 MonoBehaviour:
   m_ObjectHideFlags: 0
