@@ -572,61 +572,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8154475c9876f1c42b929cd0d3634a01, type: 3}
---- !u!114 &411453750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee55ab6fc4c1a4080a3e890703f10e69, type: 3}
-  m_Name: ActionSceneCheck
-  m_EditorClassIdentifier: 
-  id: 0
-  category: 16
-  title: Check
-  description: Queries either the current scene, or the last one visited.
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  numSockets: 2
-  willWait: 0
-  endAction: 1
-  skipAction: 9
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 1257
-    width: 300
-    height: 158
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  resultActionTrue: 2
-  skipActionTrue: 5
-  skipActionTrueActual: {fileID: 1598454152}
-  linkedCutsceneTrue: {fileID: 0}
-  linkedAssetTrue: {fileID: 0}
-  resultActionFail: 1
-  skipActionFail: -1
-  skipActionFailActual: {fileID: 0}
-  linkedCutsceneFail: {fileID: 0}
-  linkedAssetFail: {fileID: 0}
-  chooseSceneBy: 1
-  sceneToCheck: 1
-  sceneNumberParameterID: -1
-  sceneNumber: 0
-  sceneNameParameterID: -1
-  sceneName: LivingRoom
-  intCondition: 0
 --- !u!1 &497993705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,7 +2899,7 @@ MonoBehaviour:
   linkedAssetTrue: {fileID: 0}
   resultActionFail: 2
   skipActionFail: 9
-  skipActionFailActual: {fileID: 411453750}
+  skipActionFailActual: {fileID: 20792354}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   chooseSceneBy: 1
