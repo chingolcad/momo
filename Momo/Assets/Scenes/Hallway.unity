@@ -821,13 +821,13 @@ MonoBehaviour:
     x: 14
     y: 220
     width: 300
-    height: 176
+    height: 158
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 6662565878877228590}
   charToMoveParameterID: -1
   charToMoveID: 0
-  isInstant: 0
+  isInstant: 1
   direction: 7
   charToMove: {fileID: 0}
   isPlayer: 1
