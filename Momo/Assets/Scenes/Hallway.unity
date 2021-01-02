@@ -1581,7 +1581,7 @@ MonoBehaviour:
     x: 14
     y: 238
     width: 300
-    height: 168
+    height: 150
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3969279291673615958}
@@ -1592,7 +1592,7 @@ MonoBehaviour:
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
-  relativePosition: 1
+  relativePosition: 0
   relativeMarker: {fileID: 16571730}
   relativeMarkerID: 0
   relativeMarkerParameterID: -1
